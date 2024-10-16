@@ -1,0 +1,50 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+  color: #fff;
+}
+
+body {
+  background-color: #002776;
+}
+
+.atletas-brasileiros {
+  width: 900px;
+}
+
+.image_container {
+  padding: 25px;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  gap: 30px;
+}
+
+.text_container {
+  font-size: 18px;
+}
+
+.lista_atletas {
+  padding: 30px 80px;
+  font-size: 20px;
+}
+
+li {
+  font-size: 18px;
+}
+
+@media screen and (max-width: 768px) {
+  .nav_link {
+    font-size: 14px;
+  }
+  .atletas-brasileiros {
+    width: 400px;
+  }
+  h1 {
+    font-size: 20px;
+    text-align: center;
+  }
+}

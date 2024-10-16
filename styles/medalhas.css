@@ -1,0 +1,57 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+  color: #fff;
+}
+
+body {
+  background-color: #002776;
+}
+
+.imagem_medalhas {
+  width: 700px;
+}
+
+.image_container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 40px;
+  padding: 30px;
+}
+
+p {
+  font-size: 18px;
+}
+
+.container_medalistas {
+  padding: 60px;
+}
+
+li {
+  font-size: 18px;
+} 
+
+@media screen and (max-width: 768px) {
+  .nav_link {
+    font-size: 14px;
+  }
+  .nav_link:hover {
+    display: block;
+  } 
+  h1 {
+    font-size: 21px;
+  }
+  .imagem_medalhas {
+    width: 450px;
+  }
+  p {
+    font-size: 18px;
+  }
+  li {
+    font-size: 18px;
+  }
+}
